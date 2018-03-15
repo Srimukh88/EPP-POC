@@ -1,0 +1,54 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "localDateTime",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "debitFeeAmountMark",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "traceTitleD4",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "traceTitleD3",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "rejecttDescription",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "cvvCvcResult",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "responseCode",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "cardBank",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "acqIAAmtMark",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "switchDateTime",
+            "fieldType": "Integer"
+        }
+    ],
+    "changelogDate": "20180315161909",
+    "dto": "no",
+    "service": "serviceImpl",
+    "entityTableName": "transacationdetails",
+    "jpaMetamodelFiltering": false,
+    "pagination": "infinite-scroll",
+    "microserviceName": "Transacationdetails",
+    "searchEngine": false
+}
